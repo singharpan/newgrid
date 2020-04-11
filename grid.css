@@ -1,0 +1,24 @@
+body{
+    margin:0;
+}
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid greenyellow;
+    color:grey;
+    background-color: hotpink;
+    display: grid;
+
+   
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.items{
+    border:1px solid black;
+    padding: 5%;
+
+  
+    background-color: chartreuse;
+    text-align:center;
+}
